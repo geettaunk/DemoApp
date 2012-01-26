@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/back">
+    <TextView android:text="Residential Financing" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <TextView android:text="Unsecured Financing 
+Unsecured financing is an option if you have excellent credit and want a fast loan for up to $25,000 for solar or energy efficiency upgrades. This loan is not secured by your home. 
+
+If you would like to apply for this program, please send us the completedget evaluationForm on our website. 
+
+Secured Financing for California 
+This option is currently available If you're located in California 
+
+Nationwide Secured Financing 
+If you're located outside of California and Texas and have excellent credit and own over 35% of the equity in your home. This loan is a mortgage against your home. " android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    
+</LinearLayout>
+</ScrollView>

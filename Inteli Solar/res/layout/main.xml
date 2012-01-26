@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/c">
+   <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    > 
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   
+    <TableRow >
+    <Button android:layout_height="wrap_content" android:background="@drawable/home"  android:id="@+id/button1" android:layout_width="wrap_content"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content"  android:id="@+id/button2"  android:layout_toRightOf="@+id/button1" android:background="@drawable/residential"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content"  android:id="@+id/button3"  android:layout_toRightOf="@+id/button2" android:background="@drawable/comercial"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content"  android:id="@+id/button4"  android:layout_toRightOf="@+id/button3" android:background="@drawable/getevaluation"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content"  android:id="@+id/button5"   android:layout_toRightOf="@+id/button4" android:background="@drawable/geteducated"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content"  android:id="@+id/button6"   android:background="@drawable/contact" android:layout_toRightOf="@+id/button5"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content"  android:id="@+id/button7"  android:background="@drawable/blog"></Button>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content"  android:id="@+id/button8" android:layout_alignTop="@+id/button6" android:layout_toRightOf="@+id/button6" android:background="@drawable/aboutus"></Button>
+
+</TableRow>
+   
+</TableLayout>
+</HorizontalScrollView>
+ <Spinner android:layout_marginTop="88dp" android:layout_height="wrap_content" android:id="@+id/spinner1" android:layout_width="fill_parent"></Spinner>
+    <TextView android:text="" android:layout_width="fill_parent" android:layout_height="405dp" android:id="@+id/tv" android:layout_alignBottom="@+id/imageView1" android:layout_marginTop="50sp"></TextView>
+    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/inteli" android:layout_below="@+id/spinner1" android:layout_centerHorizontal="true" android:layout_marginTop="28dp"></ImageView>
+    <Button android:id="@+id/button9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/tv" android:layout_alignRight="@+id/imageView1" android:text="Shortcuts"></Button>
+    <Button android:layout_height="wrap_content" android:id="@+id/button10" android:layout_alignTop="@+id/button9" android:layout_toLeftOf="@+id/button9" android:text="Images" android:layout_width="80sp"></Button>
+
+</RelativeLayout>
+
+</ScrollView>
+
+    
+    

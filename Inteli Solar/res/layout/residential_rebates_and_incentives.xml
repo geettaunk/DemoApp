@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/b">
+    <TextView android:text="Residential rebates and incentives" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <TextView android:text="California Solar Incentives 
+
+Residential: 
+
+Expected Performance Based Buydown (EPBB) 
+
+Owners of solar systems less than 50 kilowatt (kW*) may apply for an up-front cash rebate known as the Expected Performance Based Buydown (EPBB)**. Program Administrators calculate a customer's rebate using the expected performance of the owner's system based on equipment ratings and installation factors such as geographic location, tilt, orientation and shading. Customers receive their incentive payment in a lump sum after their system in fully installed and interconnected. 
+" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    
+</LinearLayout>
+</ScrollView>

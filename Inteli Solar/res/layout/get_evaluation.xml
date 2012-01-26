@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/f">
+    <TextView android:text="Get Evaluation" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <TextView android:text="Schedule Evaluation 
+Please fill out the form below and click submit in order to schedule a FREE on site evaluation of your home, commercial building, renewable energy and Energy Efficiency project. 
+
+First Name	 
+Last Name	 
+Company	
+Address 1	
+Address 2	
+City	
+State	
+Zip Code	
+Telephone 1	
+Telephone 2	
+Fax	
+Email	  
+Type of service call	
+Residential Evaluation
+Commerical Evaluation
+Pool/Solar/Heating
+Solar Hot Water Heater
+Photovoltaics (Solar Electric)
+Other
+How many residents or FTE?	
+Utility Company?	
+Average monthly bill?	
+How old is your roof?	
+What type of roof?	
+Southern exposure?	
+Yes
+No
+How many stories?	
+Square Footage Under air?	
+Pool?	
+Yes
+No
+ 
+Best time to call?	
+Image Verification	
+
+Please enter the text from the image 
+ [ Refresh Image ]
+	" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    
+</LinearLayout>
+</ScrollView>

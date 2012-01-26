@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/f">
+    <TextView android:text="Residential" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/resi" android:layout_centerHorizontal="true" android:layout_marginTop="20sp"></ImageView>
+    <TextView android:text="
+Does solar make sense for you? 
+You are reading this because you want to cut your energy costs, reduce your dependence on fossil fuels or contribute to a cleaner environment or possibly all three. We at Inteli Solar Services are committed to all of these goals. To assist you in making an informed decision ask yourself the following: 
+
+
+
+
+
+Is solar worth it?
+Do a short energy audit to see just how much energy you use. If your electric bill is less than $100 there may be other more economical options for you. A kilowatt hour not needed is the best investment of all. Have you first made energy efficiency a priority? Part of understanding solar is figuring out how much you will be saving. We can help.
+
+
+What are the figures on solar savings? 
+Solar is a long term durable product with many useful years beyond payback. Hot water systems last 15-25 years, all the while saving $40-$50-$60 or more each month depending on usage – typically you save 70-96% per year on your solar water heating bill. Generally speaking, a solar panel will last 30 years or more (accelerated testing is giving us 40-42) and lose some ½ percent (0.5%) conversion efficiency annually. Hosing the panels off a few times during the summer and keeping leaves off them in the fall is about the only maintenance required.
+
+
+Have I put the cost of solar in perspective?
+An average $40,000 solar installation with just the current available incentives and rebates will have a net cost of $15,000 and produce over its life (allowing for 4.3% annual rate increase) $70,000 worth of electricity.
+
+
+Does your roof have southern exposure and is it shade free?
+South facing installations work best but in Florida southeast and southwest can be quite appropriate for certain applications. Shade inhibits any type of solar production but the placement options available can make it work almost anywhere. Again, we can help.
+" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/imageView1"></TextView>
+    
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/back">
+    <TextView android:text="Solar Attic Fan" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/attic" android:layout_centerHorizontal="true" android:layout_marginTop="20sp"></ImageView>
+    <TextView android:text="The solar attic fan from Natural Light is a simple and environmentally sensible solution that can save you money. Powered completely by free solar energy, this sleek and efficient vent is both compact and quiet. Fully operational right from the box, it installs easily, with no electrical wiring, no expensive electrician and no city permits. And let's not forget powerful! Operating at a whopping 850 CFM, a single unit can fully vent up to 1200 square feet. Place it wherever you need improved circulation; attics, lofts, workshops, storage sheds, garages, even barns. These attic fans are available with a flush-mount solar module or with a tiltable-mount solar module. 5-year warranty. 
+" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/imageView1"></TextView>
+    
+</RelativeLayout>
+</ScrollView>

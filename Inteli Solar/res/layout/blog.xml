@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/d">
+    <TextView android:text="Republican Governer of California signed into law following Bills.
+
+BILL AB920
+This Bill Requires the utilities to compensate a homeowner whose solar array or small wind generator produces more electricity during the year than the customer uses. Until now, if a homeowner’s panels produced more energy than the home used in an entire year, the utilities got the excess for free.
+
+According to said Bernadette Del Chiaro, clean energy advocate for Environment California, “Instead of writing a check to your utility company, you’ll be getting a check back" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
+</ScrollView>

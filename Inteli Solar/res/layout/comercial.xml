@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/d">
+    <TextView android:text="Commercial" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/comerce" android:layout_centerHorizontal="true" android:layout_marginTop="20sp"></ImageView>
+    <TextView android:text="COMMERCIAL SOLAR PROJECTS - 
+A Solar Electric System for Your Business is a Smart Decision 
+
+Business owners can count on InteliSolar to help them reduce or eliminate their facility’s electric bill with a commercial solar electric system. A significant portion of the solar system cost is paid for by taking advantage of state rebates and incentives available, the generous 30% Federal grant and accelerated depreciation. A commercial solar system will also insulate your business from electricity rate increases in the future. As utility rates increase over the 25-year life of the solar system, the return on your solar investment increases even more. A new InteliSolar commercial solar system will help your business grow unimpeded by rising energy costs, enable your business to reduce operating costs and generate long term savings. By going solar, your company will be recognized as a green business, protecting the environment and preventing pollution. 
+InteliSolar also offers a Commercial Solar Finance Program available to qualified customers as a financial solution tailored to your business’ needs. Your InteliSolar representative can provide more information about how a customized financial solution allows your business to take full advantage of the financial benefits of a solar system in a simple, cost-effective manner.
+
+The Time to Go Solar is Now! A new Federal Grant Covers 30% of the Cost of Commercial Solar Projects Started by Dec 2010 
+
+Businesses are now eligible for a 30% federal grant. This important law significantly increases the affordability and financial return of a commercial solar system for business owners and corporations, making it one of the safest investments available today. 
+
+The Benefits of a InteliSolar Commercial Solar Electric System 
+
+
+Turn the sun into a revenue generator for your business.
+Insulate your business from electricity rate increases.
+A large portion of the solar system cost is paid for with state and federal government grants and incentives.
+Take advantage of generous tax credits and accelerated depreciation that will increase your bottom line by reducing your business’ tax liability.
+By producing both quick payback and long term savings, your business realizes a good return on your investment.
+Become a Green Business - your customers will appreciate your business doing its part to protect the environment. Being a green business is a great marketing tool and a source of good public relations.
+
+
+We Make it Easy to Get Started With Solar 
+
+Let InteliSolar handle all the details in making the switch from utility-delivered electricity to solar-generated energy. InteliSolar offers 5 Easy Steps to Get Started: 
+
+1. Call us at 1-877-837-6527 or 1-877-83-SOLAR (toll free) or contact us via proposals@intelisolar.com 
+
+2. We'll come out and perform a FREE Solar Evaluation 
+
+3. We'll write a proposal including system design, costs and the amounts of your rebates and tax credits. The proposal may also include a projection of your electrical billing and usage as well as payback, cash flow and savings calculations. The proposal will deliver all the information you need to determine why becoming a green business is good for your company. 
+
+4. Once you’ve made the decision to purchase a InteliSolar Solar System, you’ll then sign a contract with us and from there we’ll handle everything including design, installation, permitting, inspections, rebates and commissioning. Installation and Final Inspections 
+
+INTELISOLAR COMMERCIAL SYSTEMS 
+
+PV panels or film are designed specifically to generate electricity for at least 6 hours a day. This electricity can power your facility or be sold to the Utility. 
+
+OVERVIEW 
+
+With the installation of solar electric system you will take advantage of a natural resource delivered free of charge to your roof and reduce your exposure to escalating energy prices as you do your part to protect our environment. 
+
+InteliSolar Solar Services can bring commercial scale PV to your facility. You are a candidate if you… 
+
+Want to lock in today’s electric rates
+Have interest in a Power Purchase Agreement (PPA)
+Want to invest in an appreciating asset
+Want to save $$$ while helping the environment
+
+Installing an InteliSolar Solar PV system will result in savings and enhanced property value. Here are just a few of the advantages… 
+
+Photovoltaic technology is clean, silent, visually unobtrusive and has no moving parts.
+PV panels have a long life (+25 years)
+PV systems can be sized based on any energy requirements
+Electric rate increases have a diminished affect on Net Operating Income
+Current incentives reward early adopters – get it while it’s hot!
+Points toward LEED certification
+
+
+INTELISOLAR SYSTEM DESIGN 
+
+InteliSolar Solar Services works with architects, engineers and contractors as well as institutional and private clients in the pursuit of innovative excellence in solar thermal, solar electric and wind energy systems. 
+
+Specializing in design-build projects and integrating the resources of the largest and fastest growing network of solar integrators in North America, we never lose sight of our client’s vision. Our design-build approach allows a turnkey solution for projects both large and small. Our passion for research into cutting edge technology helps you to evaluate risk/reward relationships when it comes to options available in today’s fast moving world of renewable energy. If we don’t know about it, we’d like you to tell us so we can expand our product knowledge and offerings. This is a brave new world and together we can be part of the solution. 
+
+Our financial experts will assist in presenting the most up-to-date financing/lease/power purchase agreement concepts to you, your clients and their stakeholders. We offer financing for small to medium commercial projects through our financing partner network. Ask us 1-877-837-6527 or 1-877-83-SOLAR on how you can integrate a system into your new or existing facility with little or no money. 
+" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/imageView1"></TextView>
+    
+</RelativeLayout>
+</ScrollView>

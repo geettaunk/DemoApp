@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/f">
+    <TextView android:text="Contact Us" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/cont"></ImageView>
+    <TextView android:text="InteliSolar Inc 
+5201 Great America Pkwy. 
+Suite 320 
+Santa Clara, California 95054 
+United States	Florida Headquarters: 
+
+InteliSolar LLC 
+1451 West Cypress Creek Road 
+Suite 300 
+Fort Lauderdale, Florida 33309 
+United States" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/imageView1"></TextView>
+    
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/d">
+    <TextView android:text="Get Educated" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <TextView android:text="At Inteli solar we understand that solar energy is a hot topic and many people just want to learn more about it. That is why we have designed this portion of our web site to help our potential customers and anyone else who wants to get more information do so, easily and comfortably. It is our goal that once you have all of the information that you need you will either take the next step and request our Free Solar Evaluation for your home or business, refer us to your friend or just take the information and start conserving energy in your own way! " android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    
+</LinearLayout>
+</ScrollView>

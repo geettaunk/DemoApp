@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/f" android:gravity="center_horizontal">
+    <Button android:text="Back" android:layout_marginTop="10sp" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    <Button android:text="Next" android:layout_marginTop="10sp" android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/button1"></Button>
+    <ViewFlipper android:id="@+id/viewFlipper1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignTop="@+id/imageView5" android:layout_alignRight="@+id/button2" android:layout_marginRight="16dp">
+    
+<ImageView android:id="@+id/imageView1" android:src="@drawable/resid" android:layout_marginTop="200sp" android:layout_width="fill_parent" android:layout_height="fill_parent"></ImageView>
+<ImageView android:id="@+id/imageView1" android:src="@drawable/auto" android:layout_height="fill_parent" android:layout_marginTop="200sp" android:layout_width="fill_parent"></ImageView>
+<ImageView android:id="@+id/imageView1" android:src="@drawable/dhw" android:layout_centerInParent="true" android:layout_marginTop="200sp" android:layout_width="fill_parent" android:layout_height="fill_parent"></ImageView>
+<ImageView android:id="@+id/imageView1" android:src="@drawable/photo" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="100sp"></ImageView>
+<ImageView android:id="@+id/imageView1" android:src="@drawable/pool" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="100sp"></ImageView>
+<ImageView android:id="@+id/imageView1" android:src="@drawable/residence" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="100sp"></ImageView>
+<ImageView android:id="@+id/imageView1" android:src="@drawable/comerce" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="100sp"></ImageView>
+<ImageView android:id="@+id/imageView1" android:src="@drawable/cont" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="100sp"></ImageView>
+<ImageView android:id="@+id/imageView1" android:src="@drawable/m" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="100sp"></ImageView>
+<ImageView android:id="@+id/imageView1" android:src="@drawable/n" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="100sp"></ImageView>
+<ImageView android:id="@+id/imageView1" android:src="@drawable/resi" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="100sp"></ImageView>
+<ImageView android:id="@+id/imageView1" android:src="@drawable/attic" android:layout_centerInParent="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="100sp"></ImageView>
+
+
+    
+    </ViewFlipper>
+</RelativeLayout>

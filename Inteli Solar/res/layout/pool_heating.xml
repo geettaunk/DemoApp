@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/b">
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:text="Pool Heating (Solar Thermal)" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/pool"></ImageView>
+    <TextView android:text="Why Solar Pool Heating? 
+
+Lengthens Swimming Season 
+If your swimming pool is frequently too cold then you are not getting the most out of your valuable backyard investment. 
+
+Depending on where you live, installing a solar heating system can literally double the amount of time you can comfortably use your pool. 
+
+More Economical 
+When compared to heating your pool with other methods, solar heating pays for itself in less than 3 years. 
+
+Adds Value 
+A solar pool heating system adds value to your pool and home. 
+
+Environmentally Safe 
+Solar pool heaters produce " android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    
+</RelativeLayout>
+</ScrollView>

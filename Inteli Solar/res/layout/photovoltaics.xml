@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/back">
+    <TextView android:text="Photovoltaics (Solar Electric)" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/photo" android:layout_centerHorizontal="true" android:layout_marginTop="20sp"></ImageView>
+    <TextView android:text="Cost-effective grid-connected solar systems on commercial buildings can offset high peak electric cost and make an excellent investment for many businesses. 
+
+A typical grid-connected PV system consists of PV modules, output cables, module mounting structures, AC and DC disconnect, switches, inverter(s), grounding equipment and a metering system. 
+
+ 
+            REC PV Module • System design assistance 
+We evaluate and Design your PV System and Create the Blue Prints for your PV Projects. We choose latest and best available technology that is customized to meet your power, load and site specific requirements. 
+
+• System monitoring 
+Independent third-party monitoring, to provide critical data needed for Power Purchase Agreements, RECs and government incentive programs. 
+
+Following indicates the some of our commercial PV and Racking options. 
+" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/imageView1"></TextView>
+    
+</RelativeLayout>
+</ScrollView>

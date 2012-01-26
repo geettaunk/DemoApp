@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Alarm</string>
+    <color name="Red">#ff0000</color>
+    <color name="Green">#00ff00</color>
+    <color name="Blue">#0000ff</color>
+</resources>

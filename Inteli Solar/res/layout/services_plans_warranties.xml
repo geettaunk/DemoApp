@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/back">
+    <TextView android:text="Services and Warranties" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <TextView android:text="All our PV system includes a/the 10-year warranty. 
+
+Manufacturer's Warranty for various products vary but here is typical warranties by Manufacturer 
+
+PV Solar Module: 25 Years Warranty for upto 80% of Rated output performance. 
+
+Inverter Warranty: 10 – 15 Years typical 
+
+InteliSolar will provide warranty information in your project proposal that applies to your project. 
+
+We can offer customized Service Plan for your project for additional cost. 
+" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    
+</LinearLayout>
+</ScrollView>

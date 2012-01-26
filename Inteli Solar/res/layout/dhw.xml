@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/back">
+    <TextView android:text="DHW (Domestic Hot Water)" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/dhw" android:layout_marginTop="20sp"></ImageView>
+    <TextView android:text="The Direct Series systems, commonly found in the Southern United States and Tropical Climates, are referred to as direct because the sun’s heat is transferred through the collector directly to the usable waterline; no antifreeze is required. When the sun is shining, a pump circulates water from the bottom of a storage tank through collectors where it is heated, and then returned to the tank for storage and eventual use. 
+
+Direct System Features: 
+
+A Differential Control senses temperature differences between water leaving the collector and the coldest water in the bottom of the storage tank. When the temperature of the water in the collector is hotter than the water in the tank, the differential control operates the circulating pump.
+A small photovoltaic solar panel option (which generates electricity from the sun) is available to operate the circulation pump, further reducing traditional energy consumption.
+Freeze protection includes a thermally operated valve installed at the collector (where required) or by manually draining." android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/imageView1"></TextView>
+    
+</RelativeLayout>
+</ScrollView>

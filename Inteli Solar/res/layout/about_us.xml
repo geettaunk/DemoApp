@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/f">
+    <TextView android:text="About Us" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <TextView android:text="InteliSolar’s mission is to increase energy efficiency and provide full service clean energy alternative to residential customers and small and medium businesses. 
+    To accomplish this mission,how we have assembled a team of talented engineers, business managers and construction industry professionals, with a combined experience of over 80 years. We run our business with Inteligent application of best processes in supply chain management and latest techniques in installation, monitoring and maintenance of Solar power. 
+
+InteliSolar works closely with local SBA, financial institutions and government agencies to facilitate financing of solar installations with a goal to reduce the total cost of energy for customers while reducing their carbon footprint. " android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/b">
+    <TextView android:text="Residential BIPV" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/resid" android:layout_centerHorizontal="true" android:layout_marginTop="20sp"></ImageView>
+    <TextView android:text="BIPV blends with your home and there is no PV modules that have to be mounted in case of BIPV Projects. 
+Here are some examples: 
+
+Using solar tiles can be aesthetically superior to traditional solar panels, and can designed to produce more kilowatt hours of energy than conventional modules of the same rated power while operating in the harsh roofing environment. Solar tiles use thin-film technology. " android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/imageView1"></TextView>
+    
+</RelativeLayout>
+</ScrollView>

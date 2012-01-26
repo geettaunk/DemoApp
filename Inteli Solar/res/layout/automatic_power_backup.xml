@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/b">
+    <TextView android:text="Automatic Power Backup" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/Dark_Yellow"></TextView>
+    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/auto" android:layout_marginTop="20sp" android:layout_centerHorizontal="true"></ImageView>
+    <TextView android:text="When AC power is available from a generator or utility grid, the Unit will function as an automatic backup power unit. It will sit in bypass mode and will pass the power through to support the loads and/or the battery charger. When AC power is connected to the unit, input from wind or solar will not be used for powering the loads. When the AC input fails, the Unit’s automatic transfer relay de-energizes and will switch the unit to inverter mode within 40 milliseconds. 
+
+Once AC input is restored, after a 20-second delay the relay energizes and qualifies the AC input and the load is automatically reconnected to the primary AC source. 
+
+When no AC power is available from a generator or utility grid, the inverter draws power from the battery bank and delivers a modified-sine wave AC output voltage. This output voltage can be accessed by using the four outlets on the front of the unit or by hard wiring the unit to the AC distribution panel which provides AC power to AC outlets at the site. 
+
+The inverter control panel provides a user interface for monitoring power levels, battery levels, and controlling the inverter functions and displays. Four 120VAC outlets on the front panel provide up to 1440W (continuous) output power. One 15 A supplemental protector provides over-load protection to the four AC outlets on the front panel. CSA Listed. 1-year warranty. " android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/imageView1"></TextView>
+    
+</RelativeLayout>
+</ScrollView>

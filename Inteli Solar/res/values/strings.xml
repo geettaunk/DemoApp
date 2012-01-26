@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Inteli_Solar!</string>
+    <string name="app_name">Inteli Solar</string>
+    <string-array name="Products_and_Services">
+        <item>Photovoltaics (Solar Electric)</item>
+        <item>Residential BIPV</item>
+        <item>DHW (Domestic Hot Water)</item>
+        <item>Pool Heating (Solar Thermal)</item>
+        <item>Attic Fans (Solar)</item>
+        <item>Automatic Power Backup</item>
+        <item>Residential Financing</item>
+        <item>Residential rebates and incentives</item>
+        <item>Services Plans &amp; Warranties</item>
+    </string-array>
+    <color name="Dark_Yellow">#f9db10</color>
+    <color name="Dark_Red">#cb0202</color>
+    <color name="Dark_Blue">#0e43ef</color>
+    <color name="Black">#0d0202</color>
+    <string-array name="shortcuts">
+        <item>Dial</item>
+        <item>Call</item>
+        <item>Browser</item>
+        <item>Contacts</item>
+        <item>Call_log</item>
+        <item>Media</item>
+        <item>Camera</item>
+        <item>Pick</item>
+    </string-array>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.isavvy"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Main"
+                  android:label="@string/app_name">
+       <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> 
+       </activity>
+       <activity android:name=".Alarm_Setting"
+                  android:label="@string/app_name">
+                     
+       </activity>
+       <activity android:name=".Alarm_Setting2"
+                  android:label="@string/app_name">
+                     
+       </activity>
+       <activity android:name=".Alarm_Setting3"
+                  android:label="@string/app_name">
+                     
+       </activity>
+       <activity android:name=".Alarm_Setting4"
+                  android:label="@string/app_name">
+                     
+       </activity>
+       <activity android:name=".Alarm_Setting5"
+                  android:label="@string/app_name">
+                     
+       </activity>
+       <activity android:name=".Alarm_Setting6"
+                  android:label="@string/app_name">
+                     
+       </activity>
+       <activity android:name=".Alarm_Setting7"
+                  android:label="@string/app_name">
+                     
+       </activity>
+       <activity android:name=".Alarm_Setting8"
+                  android:label="@string/app_name">
+                     
+       </activity>
+       <activity android:name=".Alarm_Setting9"
+                  android:label="@string/app_name">
+                     
+       </activity>
+       <activity android:name=".Alarm_Setting10"
+                  android:label="@string/app_name">
+                     
+       </activity>
+        <activity android:name=".Video"
+                  android:label="@string/app_name">
+                     
+       </activity>
+       <service android:name=".Music"
+                  android:label="@string/app_name">
+        
+       </service>
+    </application>
+    
+</manifest>

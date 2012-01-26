@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.isavvy"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
+
+    <application android:icon="@drawable/intelisolar" android:label="@string/app_name">
+        <activity android:name=".Inteli_Solar"
+                  android:label="@string/app_name">
+         <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>   
+        </activity>
+        <activity android:name=".About_Us"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Attic_Fans"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Automatic_Power_Backup"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Blog"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Comertial"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Contact"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".DHW"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Get_Evaluation"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Get_Educated"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Home"
+                  android:label="@string/app_name">
+                  
+        </activity>
+        <activity android:name=".Photovoltaics"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Pool_Heating"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Residencial"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Residential_BIPV"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Residential_Financing"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Residential_rebates_and_incentives"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Services_Plans_Warranties"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Shortcut"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Images"
+                  android:label="@string/app_name">
+        </activity>
+
+    </application>
+</manifest>
